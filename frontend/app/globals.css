@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom glassy effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1); /* Light background with opacity */
+  backdrop-filter: blur(10px); /* Blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.ink {
+  font-family: var(--font-playfair), serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #2c3e50; /* Dark blue */
+}
+
+.imagination {
+  font-family: var(--font-dancing-script), cursive;
+  font-size: 48px;
+  color: #d35400; /* Orange */
+  margin-left: 10px;
+}
+
+.glass-cart {
+  background: rgba(255, 255, 255, 0.15); /* Slightly darker background for distinction */
+  backdrop-filter: blur(12px); /* Blur effect */
+  -webkit-backdrop-filter: blur(12px); /* For Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+  border-radius: 16px; /* Slightly larger rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow for popup effect */
+}
+
